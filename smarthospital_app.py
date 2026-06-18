@@ -93,7 +93,7 @@ st.markdown("""
                 text-transform:uppercase;letter-spacing:0.1em;margin-bottom:12px;">
         🏥 Future Classroom · Machine Learning
     </div>
-    <div style="font-size:36px;font-weight:700;color:#ffffff;margin-bottom:12px;
+    <div style="font-size:36px;font-weight:700;color:#000000;margin-bottom:12px;
                 letter-spacing:-0.02em;">
         Smart Hospital Patient Navigator
     </div>
