@@ -19,7 +19,7 @@ footer { visibility: hidden; }
 div[data-testid="stForm"] { border: none; padding: 0; }
  
 div.stButton > button {
-    background: linear-gradient(135deg, #1a56db, #1e429f) !important;
+    background: linear-gradient(135deg, #1a56db, #e89761) !important;
     color: white !important; border: none !important;
     border-radius: 12px !important; padding: 0.75rem 2rem !important;
     font-size: 16px !important; font-weight: 600 !important;
