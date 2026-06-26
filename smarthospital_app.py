@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 import os
  
-st.set_page_config(page_title="Smart Hospital", page_icon="🏥", layout="wide")
+st.set_page_config(page_title="Smart Hospital Patient Navigator", page_icon="🏥", layout="wide")
  
 st.markdown("""
 <style>
@@ -19,7 +19,7 @@ footer { visibility: hidden; }
 div[data-testid="stForm"] { border: none; padding: 0; }
  
 div.stButton > button {
-    background: linear-gradient(135deg, #1a56db, #e89761) !important;
+    background: linear-gradient(135deg, #1a56db, #1e429f) !important;
     color: white !important; border: none !important;
     border-radius: 12px !important; padding: 0.75rem 2rem !important;
     font-size: 16px !important; font-weight: 600 !important;
@@ -87,13 +87,13 @@ DEPT_INFO = {
  
 # ── Hero Header ───────────────────────────────────────────────────────────────
 st.markdown("""
-<div style="background:linear-gradient(135deg,#f2dabf 0%,#ed9d47 60%,#0ea5e9 100%);
+<div style="background:linear-gradient(135deg,#1e3a8a 0%,#1a56db 60%,#0ea5e9 100%);
             padding:3rem 2rem 2.5rem;margin:-1rem -1rem 2rem;text-align:center;">
     <div style="font-size:14px;font-weight:500;color:rgba(255,255,255,0.7);
                 text-transform:uppercase;letter-spacing:0.1em;margin-bottom:12px;">
         🏥 Future Classroom · Machine Learning
     </div>
-    <div style="font-size:36px;font-weight:700;color:#000000;margin-bottom:12px;
+    <div style="font-size:36px;font-weight:700;color:#ffffff;margin-bottom:12px;
                 letter-spacing:-0.02em;">
         Smart Hospital Patient Navigator
     </div>
@@ -108,7 +108,7 @@ with st.form("triage_form"):
  
     # Section 1 — Symptoms
     st.markdown("""
-    <div style="background:#9bcff2;border:1px solid #bae6fd;border-radius:14px;
+    <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
             <span style="background:#0284c7;color:white;border-radius:8px;
